@@ -81,5 +81,5 @@ The data analysis was carried out in multiple stages. The datasets used were sou
 After handling the merged data, with the final merged data the analysis focused on visualizing and understanding the relationship between urbanization rates and marriage rates, while considering other potentially influential variables like GDP per capita, unemployment, Gini index, working hours, life expectancy, education, HDI, and GDI. 
 
 
-## Conclusion
+## Expected Outcome
 This project aims to uncover whether urbanization plays a significant role in global marriage trends, and if so, how that role changes depending on a country's development level and social conditions. The results could help us better understand how modern lifestyles are reshaping personal and social choices around the world. 
