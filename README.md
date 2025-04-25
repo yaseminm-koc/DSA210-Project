@@ -1,3 +1,8 @@
+# A Look into How Urbanization Might Be Connected to Global Marriage Trends
+
+## Topic Change
+This project originally focused on the relationship between lifestyle factors and sleep quality. However, I had to change the topic because the datasets couldn’t be merged or enriched effectively.
+
 # Exploring Lifestyle Factors Affecting Sleep Efficiency
 
 ## Objective
