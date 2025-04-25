@@ -78,7 +78,7 @@ The Gini coefficient measures income inequality within a country. A Gini index o
 ## Data Analysis
 The data analysis was carried out in multiple stages. The datasets used were sourced from Our World in Data because I found that the site's datasets were easier to clean and process. I first filtered each dataset to include only the years between 2010 and 2017, because the dataset 'Annual working hours per worker's included most recent year was 2017 and I also wanted to add multiple years to my project. I also standardized country names and handled missing values manually, especially in the Gini coefficient dataset, where missing years were filled using mean imputation and the linear interpolation formula using the other available years' data from that country. 
 
-Once merged, the analysis focused on visualizing and understanding the relationship between urbanization rates and marriage rates, while considering other potentially influential variables like GDP per capita, unemployment, Gini index, working hours, life expectancy, education, HDI, and GDI. 
+After handling the merged data, with the final merged data the analysis focused on visualizing and understanding the relationship between urbanization rates and marriage rates, while considering other potentially influential variables like GDP per capita, unemployment, Gini index, working hours, life expectancy, education, HDI, and GDI. 
 
 
 ## Expected Outcomes
