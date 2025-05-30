@@ -104,3 +104,10 @@ In future work, expanding the dataset to include more recent years and a broader
 
 
 ## Conclusion
+This project set out to explore the potential influence of urbanization on global marriage trends, with a particular focus on whether higher urbanization levels correlate with lower marriage rates. The study involved compiling and cleaning a rich set of global datasets covering a variety of socio-economic indicators from 2010 to 2017. These included marriage rates, urbanization percentages, GDP per capita, unemployment rates, the Human and Gender Development Indices, average schooling years, life expectancy, income inequality (Gini index), and working hours. Despite facing limitations such as missing data and the need for imputation, the datasets were merged into a unified form to facilitate statistical analysis and visualization.
+
+The hypothesis that higher urbanization correlates with lower marriage rates was tested but found to lack statistical significance. Similarly, other expected relationships such as those between marriage rates and Human Development Index did not show strong evidence. Interestingly, unemployment rate emerged as the only variable with a significant correlation, suggesting that economic stability may play a more direct role in marriage decisions than urban living itself.
+
+Machine learning modeling using a Random Forest Regressor provided some predictive capability but was limited by data sparsity and complexity of the phenomenon being modeled.
+
+Overall, while urbanization alone does not appear to significantly affect marriage rates on a global scale, the findings highlight the importance of economic conditions and suggest that cultural and psychological factors could also play substantial roles. Future research could benefit from broader and more recent datasets, as well as the inclusion of cultural indicators to capture the full picture of marriage dynamics in the modern world.
