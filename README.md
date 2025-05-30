@@ -1,15 +1,23 @@
 # A Look into How Urbanization Might Influence Global Marriage Trends
 
+
 ## Topic Change
 This project originally focused on the relationship between lifestyle factors and sleep quality. However, I had to change the topic because the datasets couldn’t be merged or enriched effectively.
 
+
 ## Objective
 The objective of this project is to examine whether countries with higher levels of urbanization tend to have lower marriage rates, and what other factors might be influencing that relationship.
+
 
 ## Motivation
 Urbanization great speed has transformed the way people live, work, and connect. As more people move into cities, we see increase in individualism, workforce participation, and changes in social structures. All of which can affect people's approach towards marriage. On one hand, urban environments often encourage independence and career focus, which might lead to declining marriage rates. On the other hand, urban areas provide more opportunities for social interaction, education, and economic stability that are factors that can support relationship formation.
 
 Given these two sides of urbanization, it's not obvious how urbanization really affects marriage rates across different countries. To better understand this, I decided to look at the relationship between urbanization and marriage rates using global data. I also enriched my dataset with variables like life expectancy, human and gender development indices, GDP per capita, average schooling, unemployment rate, working hours, and income inequality (Gini coefficient) to capture the broader social and economic context in which people make decisions about marriage.
+
+
+## Expected Outcome
+This project aims to uncover whether urbanization plays a significant role in global marriage trends, and if so, how that role changes depending on a country's development level and social conditions. The results could help us better understand how modern lifestyles are reshaping personal and social choices around the world. 
+
 
 ## Data Sources
 ### Core Datasets:
@@ -23,7 +31,6 @@ This dataset tracks the percentage of a country's population living in urban are
 Source: https://ourworldindata.org/grapher/marriage-rate-per-1000-inhabitants?tab=table#all-charts
 
 This dataset provides information on the number of marriages per 1,000 inhabitants in different countries, showing trends in marriage patterns over time.
-
 
 
 ### Enrichment Datasets:
@@ -80,8 +87,20 @@ The data analysis was carried out in multiple stages. The datasets used were sou
 
 After handling the merged data, with the final merged data the analysis focused on visualizing and understanding the relationship between urbanization rates and marriage rates, while considering other potentially influential variables like GDP per capita, unemployment, Gini index, working hours, life expectancy, education, HDI, and GDI. 
 
-Also hypothesis testing was applied to our hypothesis: Countries with higher levels of urbanization tend to have lower marriage rates.
+Also hypothesis testing was applied to our hypothesis: Countries with higher levels of urbanization tend to have lower marriage rates. Which showed that there is no significant relationship between urbanization and marriage rates in the dataset
 
 
-## Expected Outcome
-This project aims to uncover whether urbanization plays a significant role in global marriage trends, and if so, how that role changes depending on a country's development level and social conditions. The results could help us better understand how modern lifestyles are reshaping personal and social choices around the world. 
+## Findings
+- No significant correlation was found between urbanization rates and marriage rates across the analyzed countries from 2010 to 2017.
+- Also the Human Development Index (HDI) showed no statistically significant relationships with marriage rates.
+- A significant correlation was found between unemployment rates and marriage rates, suggesting that economic conditions may influence marriage decisions.
+- The Random Forest Regressor was the best-performing machine learning model for predicting marriage rates, though its overall accuracy was limited.
+
+
+## Limitations and Future Work
+One of the key limitations of the project was the availability and completeness of data. Many countries had to be excluded due to missing values, particularly in the marriage rates dataset. As a result, the dataset was limited in both size and diversity. Additionally, only socioeconomic variables were considered, which may not fully capture the complex factors that influence marriage behavior.
+
+In future work, expanding the dataset to include more recent years and a broader range of countries could be valuable. Incorporating cultural datas uch as attitudes toward marriage or family structure could also provide a more comprehensive understanding.
+
+
+## Conclusion
